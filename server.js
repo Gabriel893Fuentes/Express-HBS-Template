@@ -9,21 +9,18 @@
 const express = require("express");
 const fetch = require("node-fetch");
 const app = express();
-app.use(express.static("public"));
+var compression = require('compression');
 const request = require("request");
-const jsdom = require("jsdom");
 const port = 3000;
 const URL = "https://icanhazdadjoke.com";
-const nav = ["Home", "Joke1", "Joke2", "Joke3", "Joke4"];
-const bg = ["green", "red", "orange", "pink", "blue"];
+app.use(express.static("public"));
+app.use(compression());
 
 
 /** COMPRESSION
 * 1. Provides gzip compression for the HTTP response
 * 2. Enable gzip compression for all HTTP responses
 */
-var compression = require('compression'); 
-app.use(compression());
 
 const get_data = async (URL,templateNameString, res) => {
     try {

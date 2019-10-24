@@ -1,23 +1,29 @@
 {
-  "name": "Projects",
+  "name": "Express-HBS-Template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Template that uses Express, Handlebars and Bootstrap to create a basic template.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel893Fuentes/Express-HBS-Template.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel893Fuentes/Express-HBS-Template/issues"
+  },
+  "homepage": "https://github.com/Gabriel893Fuentes/Express-HBS-Template#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "jsdom": "^15.2.0",
     "jsesc": "^2.5.2",
     "node-fetch": "^2.6.0",
-    "nodemon": "^1.19.3",
+    "nodemon": "^1.19.4",
     "request": "^2.88.0"
   }
 }
