@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {{> head }}
+
+  <body>
+
+    <main>
+   		<nav class="nav navbar-expand navbar-dark bg-dark">
+        <ul class="navbar-nav">
+   			{{#each li}}
+				<li class="nav-item">
+          <a class="nav-link text-uppercase" href="/{{this}}">{{this}}</a>
+        </li>
+			  {{/each}}
+        </ul>
+   		</nav>
+      <div id="random" style="position: absolute; top: 35%; left: 35%; background: black;">
+          <h2>{{{data}}}</h2>
+      </div>
+    </main>
+  </body>
+  
+</html>

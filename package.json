@@ -1,0 +1,23 @@
+{
+  "name": "Projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "jsdom": "^15.2.0",
+    "jsesc": "^2.5.2",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.3",
+    "request": "^2.88.0"
+  }
+}
