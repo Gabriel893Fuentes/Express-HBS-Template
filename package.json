@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Gabriel893Fuentes/Express-HBS-Template#readme",
   "dependencies": {
     "compression": "^1.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jsesc": "^2.5.2",
     "node-fetch": "^2.6.0",
     "nodemon": "^1.19.4",
